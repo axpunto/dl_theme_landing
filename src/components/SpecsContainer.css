@@ -1,0 +1,11 @@
+.specs-container {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.specs-container ul > li {
+	margin-bottom: 10px;
+	list-style: none;
+}

@@ -1,0 +1,43 @@
+.smartphone-frame {
+	width: 260px;
+	height: 530px;
+	background-color: #000;
+	border-radius: 30px;
+	padding: 0px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+.smartphone-screen {
+	width: 234px;
+	height: 506px;
+	border-radius: 15px;
+	border: none;
+}
+	
+.smartphone-frame::before {
+	content: '';
+    width: 120px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 15px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.smartphone-frame::after {
+	content: '';
+	width: 50px;
+	height: 4px;
+	background-color: #8b8b8bc7;
+	border-radius: 2px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}

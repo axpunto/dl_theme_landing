@@ -1,0 +1,21 @@
+.dl-main-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 60px;
+	background-color: #282c34;
+	min-height: 100vh;
+}
+
+.dl-start-container {
+	flex: 1;
+	color: #dcdcdc;
+	width: 50%;
+}
+
+.dl-end-container {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
