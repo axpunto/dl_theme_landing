@@ -3,9 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    ul > li > h3, p {
+        margin: 0;
+    }
 }
 
 .specs-container ul > li {
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	list-style: none;
+    h3 {
+        color: white;
+    }
+    p {
+        margin-left: 25px;
+    }
 }

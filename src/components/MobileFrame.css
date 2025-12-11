@@ -1,6 +1,6 @@
 .smartphone-frame {
-	width: 260px;
-	height: 530px;
+	width: 365px;
+	height: 667px;
 	background-color: #000;
 	border-radius: 30px;
 	padding: 0px;
@@ -12,8 +12,8 @@
 }
 	
 .smartphone-screen {
-	width: 234px;
-	height: 506px;
+	width: 340px;
+    height: 643px;
 	border-radius: 15px;
 	border: none;
 }
