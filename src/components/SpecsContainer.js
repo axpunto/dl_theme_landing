@@ -1,5 +1,11 @@
 import './SpecsContainer.css';
 
+const specsDataMock = [
+    { title: "⚡ Modern & Scalable Codebase", description: "You will get latest libraries" },
+    { title: "🧪 Quality You Can Trust", description: "Built-in unit testing powered by Jasmine." },
+    { title: "🚀 Optimized for Performance", description: "Fast load times, smooth animations, ready to customize." }
+]
+
 const SpecsContainer = () => {
 	return (
 		<>
@@ -7,18 +13,14 @@ const SpecsContainer = () => {
 			<p>DL Theme - a solid template built with Ionic 6 + Angular 18</p>
 			<div className='specs-container'>
 				<ul>
-					<li>
-						<h3>⚡ Modern & Scalable Codebase</h3>
-						<p>You will get latest libraries </p>
-					</li>
-					<li>
-						<h3>🧪 Quality You Can Trust</h3>
-						<p>Built-in unit testing powered by Jasmine.</p>
-					</li>
-					<li>
-						<h3>🚀 Optimized for Performance</h3>
-						<p>Fast load times, smooth animations, ready to customize.</p>
-					</li>
+                    {
+                        specsDataMock.map((spec, index) => (
+                            <li key={index}>
+                                <h3>{spec.title}</h3>
+                                <p>{spec.description}</p>
+                            </li>
+                        ))
+                    }
 				</ul>
 			</div>
 		</>
