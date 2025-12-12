@@ -1,10 +1,13 @@
 .dl-main-container {
+	background-color: #282c34;
+	min-height: 100vh;
+}
+
+.dl-content-wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 60px;
-	background-color: #282c34;
-	min-height: 100vh;
 }
 
 .dl-start-container {
@@ -14,8 +17,18 @@
 }
 
 .dl-end-container {
-	width: 50%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 50%;
+}
+
+@media (max-width: 800px) {
+	.dl-main-container {
+		flex-direction: column;
+		padding: 50px;
+	}
+	.dl-end-container, .dl-start-container {
+		width: 100%;
+	}
 }

@@ -6,11 +6,13 @@ function App() {
 	return (
 		<>
 			<main className='dl-main-container'>
-				<div className='dl-start-container'>
-					<SpecsContainer />
-				</div>
-				<div className='dl-end-container'>
-					<MobileFrame />
+				<div className='dl-content-wrapper'>
+					<div className='dl-start-container'>
+						<SpecsContainer />
+					</div>
+					<div className='dl-end-container'>
+						<MobileFrame />
+					</div>
 				</div>
 			</main>
 		</>
