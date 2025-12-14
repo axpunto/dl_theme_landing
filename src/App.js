@@ -6,11 +6,20 @@ function App() {
 	return (
 		<>
 			<main className='dl-main-container'>
-				<div className='dl-content-wrapper'>
-					<div className='dl-start-container'>
+				<div className='dl-header-container'>
+					<div>
+						<p className='dl-no-margin dl-theme-head'><span className='dl-brand'>DL</span> Theme</p>
+						<p className='dl-no-margin dl-theme-slogan'>Fancy and <span className='dl-brand'>Simple</span></p>
+					</div>
+					<div>
+						<button className='dl-cta-button'>Download Now</button>
+					</div>
+				</div>
+				<div className='dl-content-container'>
+					<div className='dl-start-wrapper'>
 						<SpecsContainer />
 					</div>
-					<div className='dl-end-container'>
+					<div className='dl-end-wrapper'>
 						<MobileFrame />
 					</div>
 				</div>
