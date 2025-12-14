@@ -3,32 +3,73 @@
 	min-height: 100vh;
 }
 
-.dl-content-wrapper {
+.dl-header-container {
+	padding: 20px 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #8f8f8f;
+}
+
+.dl-theme-head {
+	font-family: "BBH Bogle", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 45px;
+}
+
+.dl-theme-slogan {
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.dl-brand {
+	color: #cecece;
+	font-weight: 600;
+}
+
+.dl-cta-button {
+	background-color: #d0d0d0;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #282c34;
+}
+
+.dl-content-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 60px;
 }
 
-.dl-start-container {
+.dl-start-wrapper {
 	flex: 1;
 	color: #dcdcdc;
 	width: 50%;
 }
 
-.dl-end-container {
+.dl-end-wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 50%;
 }
 
+.dl-no-margin {
+	margin: 0;
+}
+
 @media (max-width: 800px) {
-	.dl-main-container {
+	.dl-content-container {
 		flex-direction: column;
 		padding: 50px;
 	}
-	.dl-end-container, .dl-start-container {
+	.dl-end-wrapper, .dl-start-wrapper {
 		width: 100%;
 	}
 }
