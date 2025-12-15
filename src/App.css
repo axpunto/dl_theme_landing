@@ -1,5 +1,5 @@
 .dl-main-container {
-	background-color: #282c34;
+	background: linear-gradient(45deg, #3c3c3c 50%, #efefef 50%);
 	min-height: 100vh;
 }
 
@@ -8,7 +8,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #8f8f8f;
 }
 
 .dl-theme-head {
@@ -25,19 +24,24 @@
 	font-size: 20px;
 }
 
-.dl-brand {
+.dl-color-brand-a {
 	color: #cecece;
 	font-weight: 600;
 }
 
+.dl-color-brand-b {
+	color: #8f8f8f;
+	font-weight: 600;
+}
+
 .dl-cta-button {
-	background-color: #d0d0d0;
-    font-weight: 600;
+	background-color: #16ad20;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    color: #ffffff;
     cursor: pointer;
-    color: #282c34;
+    font-weight: 600;
+    padding: 10px 20px;
 }
 
 .dl-content-container {
@@ -72,4 +76,7 @@
 	.dl-end-wrapper, .dl-start-wrapper {
 		width: 100%;
 	}
+	.dl-main-container {
+	background: #3c3c3c;
+}
 }
