@@ -1,3 +1,10 @@
+.smartphone-screen {
+	width: 320px;
+    height: 637px;
+	border-radius: 20px;
+	border: none;
+}	
+
 .smartphone-frame {
 	width: 345px;
 	height: 660px;
@@ -9,13 +16,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-	
-.smartphone-screen {
-	width: 320px;
-    height: 637px;
-	border-radius: 20px;
-	border: none;
 }
 	
 .smartphone-frame::before {
@@ -40,4 +40,10 @@
 	bottom: 20px;
 	left: 50%;
 	transform: translateX(-50%);
+}
+
+@media (max-width: 400px) {
+	.smartphone-screen{
+		width: 280px;
+	}
 }

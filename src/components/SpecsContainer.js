@@ -1,18 +1,27 @@
 import './SpecsContainer.css';
+import { SiAngular } from "react-icons/si";
+import { SiIonic } from "react-icons/si";
+import { TfiCheckBox } from "react-icons/tfi";
+import { FaPlus } from "react-icons/fa";
 
 const specsDataMock = [
-    { title: "⚡ Modern & Scalable Codebase", description: "You will get latest libraries" },
-    { title: "🧪 Quality You Can Trust", description: "Built-in unit testing powered by Jasmine." },
-    { title: "🚀 Optimized for Performance", description: "Fast load times, smooth animations, ready to customize." }
+    { title: "⚡ Reusable for scale", description: "Get standalone components ready to customize." },
+    // { title: "🧪 32 components", description: "Built-in unit testing powered by Jasmine." },
+    { title: "🚀 Optimized performance", description: "Fast load times, smooth animations, ready to customize." }
 ]
 
 const SpecsContainer = () => {
 	return (
 		<>
-			<h2>Starter Ionic 6 E-Commerce UI/UX.</h2>
-			<p>DL Theme - a solid template built with Ionic 6 + Angular 18</p>
-			<div className='specs-container'>
-				<ul>
+            <h2 className='dl-specs-heading'><span className='ionic-lbl'>Ionic-6</span> starter theme for E-Commerce</h2>
+            <div className='d-flex align-items-center justify-content-start mb-4'>
+                <p className='dl-no-margin'>Built in: </p>
+                <div className='px-2'><SiIonic size={25} color="rgb(70 82 255)"/></div>
+                <FaPlus size={15} color="#ffffff"/>
+                <div className='ps-2'><SiAngular size={25} color="rgb(255 90 90)"/></div>
+            </div>
+            <div className='specs-container'>
+                <ul className='dl-features'>
                     {
                         specsDataMock.map((spec, index) => (
                             <li key={index}>
@@ -21,8 +30,16 @@ const SpecsContainer = () => {
                             </li>
                         ))
                     }
-				</ul>
-			</div>
+                </ul>
+                <ul className='dl-listing-features'>
+                    <h3>📦 What’s Included</h3>
+                    <li className='list-text'><TfiCheckBox className='check-icon'/>Ready-to-adapt authentication flow</li>
+                    <li className='list-text'><TfiCheckBox className='check-icon'/>Optimized navigation structure</li>
+                    <li className='list-text'><TfiCheckBox className='check-icon'/>Reusable UI components</li>
+                    <li className='list-text'><TfiCheckBox className='check-icon'/>Global theming with SCSS variables</li>
+                    <li className='list-text'><TfiCheckBox className='check-icon'/>Production-ready app architecture</li>
+                </ul>
+            </div>
 		</>
 	);
 };
