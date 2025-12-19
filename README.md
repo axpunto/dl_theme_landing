@@ -1,4 +1,4 @@
-# dl-theme-landing
+# DL Theme - landing page
 
 A React-based landing page for showcasing themes, built with Create React App.
 
