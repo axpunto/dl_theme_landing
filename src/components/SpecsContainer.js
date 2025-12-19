@@ -6,7 +6,6 @@ import { FaPlus } from "react-icons/fa";
 
 const specsDataMock = [
     { title: "⚡ Reusable for scale", description: "Get standalone components ready to customize." },
-    // { title: "🧪 32 components", description: "Built-in unit testing powered by Jasmine." },
     { title: "🚀 Optimized performance", description: "Fast load times, smooth animations, ready to customize." }
 ]
 
