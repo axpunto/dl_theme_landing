@@ -8,13 +8,43 @@
     }
 }
 
-.specs-container ul > li {
+.specs-container ul.dl-features > li {
 	margin-bottom: 25px;
 	list-style: none;
     h3 {
         color: white;
     }
     p {
-        margin-left: 25px;
+        margin-left: 35px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+.dl-listing-features {
+    li {
+        margin: 5px 0 5px 0;
+        font-weight: 400;
+        font-family: sans-serif;
+        font-size: 18px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        .check-icon {
+            margin-right: 10px;
+            font-size: 25px;
+            color: #30b630;
+        }
+    }
+    h3 {
+        color: white;
+    }
+}
+
+.dl-specs-heading {
+    font-size: 25px;
+    font-weight: 200;
+    .ionic-lbl {
+        font-weight: bold;
     }
 }
