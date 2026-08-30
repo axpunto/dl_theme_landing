@@ -9,13 +9,15 @@ function App() {
 		<>
 			<main>
 				<div className='dl-main dl-bg-linear-gradient'>	
-					<div className='pt-3 px-5 d-flex align-items-center justify-content-between'>
-						<div className='dl-color-brand-b'>
-							<p className='dl-no-margin dl-theme-title'><span className='dl-color-brand-a'>DL</span> Theme</p>
-							<p className='dl-no-margin dl-theme-slogan'>Fancy and <span className='dl-color-brand-a'>Simple</span></p>
+					<header>
+						<div className='pt-3 px-5 d-flex align-items-center justify-content-between'>
+							<div className='dl-color-brand-b'>
+								<p className='dl-no-margin dl-theme-title'><span className='dl-color-brand-a'>DL</span> Theme</p>
+								<p className='dl-no-margin dl-theme-slogan'>Fancy and <span className='dl-color-brand-a'>Simple</span></p>
+							</div>
+							<button type="button" class="btn btn-success" disabled><b>Download Now</b></button>
 						</div>
-						<button type="button" class="btn btn-success" disabled><b>Download Now</b></button>
-					</div>
+					</header>
 					<div className='dl-content-wrapper dl-color-brand-a'>
 						<div className='dl-start-section'>
 							<SpecsContainer />
@@ -25,12 +27,22 @@ function App() {
 						</div>
 					</div>
 				</div>
-				<footer className='d-flex align-items-center px-5 py-4'>
+				<footer className='d-flex align-items-center px-5 py-4 dl-footer-container'>
 					<div className='footer-text'>
 						<p>&copy; 2026 DL Theme.</p>
 						<p>Built with ❤️ by <span className='dl-color-brand-b dl-theme-slogan'><a href='https://github.com/axpunto/dl_theme_landing' target='_blank'><FaGithub className='mx-2'/>axpunto</a></span></p>
 					</div>
 				</footer>
+				<div className='dl-video-background'>	
+					<iframe 
+						src="https://www.youtube.com/embed/_mjDw234Zwo?si=d3035L5l1O5YQR4g&autoplay=1&mute=1&loop=1&playlist=_mjDw234Zwo&controls=0&rel=0&modestbranding=1" 
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; gyroscope; encrypted-media" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen>
+					</iframe>
+				</div>
 			</main>
 		</>
 	);
