@@ -26,19 +26,21 @@
 	font-weight: 400;
 	font-style: normal;
 	font-size: 45px;
+	line-height: inherit;
 }
 
 .dl-theme-slogan {
 	font-family: "Pacifico", cursive;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 20px;
+	font-size: 21px;
+    line-height: inherit;
 }
 
 .dl-footer-container {
 	position: relative;
 	z-index: 1;
-	background-color: white;
+	background-color: #f0ebe8;
 }
 
 .dl-color-brand-a {
