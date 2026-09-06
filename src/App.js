@@ -29,13 +29,13 @@ function App() {
 				</div>
 				<footer className='d-flex align-items-center px-5 py-4 dl-footer-container'>
 					<div className='footer-text'>
-						<p>Built with ❤️ + ⚛️<span className='dl-color-brand-b dl-theme-slogan'><a href='https://github.com/axpunto/dl_theme_landing' target='_blank'><FaGithub className='mx-2'/>axpunto</a></span></p>
+						<p>Built with ❤️ + ⚛️<span className='dl-color-brand-b dl-theme-slogan'><a href='https://github.com/axpunto/dl_theme_landing' rel='noopener noreferrer' target='_blank'><FaGithub className='mx-2'/>axpunto</a></span></p>
 					</div>
 				</footer>
 				<div className='dl-video-background'>	
 					<iframe 
 						src="https://www.youtube.com/embed/_mjDw234Zwo?si=d3035L5l1O5YQR4g&autoplay=1&mute=1&loop=1&playlist=_mjDw234Zwo&controls=0&rel=0&modestbranding=1" 
-						title="YouTube video player" 
+						title="DL Theme development in progress" 
 						frameborder="0" 
 						allow="accelerometer; autoplay; gyroscope; encrypted-media" 
 						referrerpolicy="strict-origin-when-cross-origin" 
