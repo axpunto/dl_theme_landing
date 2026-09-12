@@ -12,7 +12,7 @@ const specsDataMock = [
 const SpecsContainer = () => {
 	return (
 		<>
-            <h2 className='dl-specs-heading'><span className='ionic-lbl'>Ionic-6</span> starter theme for E-Commerce</h2>
+            <h2 className='dl-specs-heading'><span className='ionic-lbl'>Ionic/Angular 8</span> e-Commerce starter theme</h2>
             <div className='d-flex align-items-center justify-content-start mb-4'>
                 <p className='dl-no-margin'>Built in: </p>
                 <div className='px-2'><SiIonic size={25} color="rgb(70 82 255)"/></div>
@@ -31,12 +31,13 @@ const SpecsContainer = () => {
                     }
                 </ul>
                 <ul className='dl-listing-features'>
-                    <h3>📦 What’s Included</h3>
+                    <h3>📦 What’s inside</h3>
                     <li className='list-text'><TfiCheckBox className='check-icon'/>Ready-to-adapt authentication flow</li>
                     <li className='list-text'><TfiCheckBox className='check-icon'/>Optimized navigation structure</li>
                     <li className='list-text'><TfiCheckBox className='check-icon'/>Reusable UI components</li>
                     <li className='list-text'><TfiCheckBox className='check-icon'/>Global theming with SCSS variables</li>
                     <li className='list-text'><TfiCheckBox className='check-icon'/>Production-ready app architecture</li>
+                    <li className='list-text'><TfiCheckBox className='check-icon'/>Direct access to source code</li>
                 </ul>
             </div>
 		</>
